@@ -26,6 +26,7 @@ jobs:
 
       - name: Gosec check
         run: gosec ./...
+        
 
   style:
     name: Style
